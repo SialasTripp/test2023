@@ -1,9 +1,10 @@
-#include <iostream>
-using namespace std;
+#include "display.h"
 
 int main()
 {
-    cout <<"Hello World\n";
-
+    std::cout << "Hello from Codespace\n";
+    int array[5] = {1,2,3,4,5};
+    displayArray(array,5);
+    std::cout <<"Hello World\n";
     return 0;
 }
